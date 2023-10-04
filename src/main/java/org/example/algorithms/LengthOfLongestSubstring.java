@@ -19,6 +19,7 @@ public class LengthOfLongestSubstring {
         return  max;
     }
 
+
     public static void main(String[] args) {
         String input = "kuchay the op gtergsw";
         int result = lengthOfLongestSubString(input);

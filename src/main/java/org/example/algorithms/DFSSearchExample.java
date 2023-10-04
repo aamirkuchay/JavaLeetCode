@@ -6,6 +6,7 @@ class Graph {
     private int vertices;
     private LinkedList<Integer>[] adjacencyList;
 
+
     Graph(int v) {
         vertices = v;
         adjacencyList = new LinkedList[v];
@@ -36,6 +37,7 @@ class Graph {
         }
     }
 }
+
 
 public class DFSSearchExample {
     public static void main(String[] args) {
