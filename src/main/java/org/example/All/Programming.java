@@ -287,6 +287,13 @@ public class Programming {
 //        }
 
 
+//  Length of string
+//        String str = "Developer";
+//        int l = 0;
+//        for(char b : str.toCharArray()){
+//            l++;
+//        }
+
     }
 }
 
