@@ -75,7 +75,7 @@ public class java8 {
 //            Set<String> set = new HashSet<>();
 //            Set<String> duplicates = new HashSet<>();
 //
-//            for (String s : strings) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            //            for (String s : strings) {
 //                if (!set.add(s)) {
 //                    duplicates.add(s);
 //                }
@@ -216,6 +216,42 @@ public class java8 {
 //        }
 //        System.out.println(us);
 //        System.out.println(ds);
+
+//  ----------RESHUFFLE THE ARRAY-------------------------------------------
+//        int[] array = {1, 2, 3, 4, 5, 6, 7};
+//        Random random = new Random();
+//        for(int i=array.length-1;i>0;i--){
+//            int j = random.nextInt(i+1);
+//            int temp = array[i];
+//            array[i] = array[j];
+//            array[j] = temp;
+//        }
+//
+//        for(int num:array){
+//            System.out.print(num);
+//        }
+
+
+
+        // hwo many times the character is repeated ------------
+//        String name = "aamirr";
+//        Map<Character,Integer> charcount = new HashMap<>();
+//        for(char c: name.toCharArray()){
+//            charcount.put(c,charcount.getOrDefault(c,0)+1);
+//        }
+//        for(Map.Entry<Character,Integer> ll: charcount.entrySet()){
+//            System.out.println(ll.getKey()  +"  "  + ll.getValue());
+//        }
+
+
+ //        Square of sorted array -------------------------------------
+//        int[] nums = {2,3,4,5,6,7};
+//        int n = nums.length;
+//        for(int i=0;i<n;i++){
+//            nums[i] = nums[i] * nums[i];
+//        }
+//        Arrays.sort(nums);
+//        System.out.println(nums);
 
 
         }

@@ -15,13 +15,14 @@ public class Programming {
         //       System.out.println(sb);
 
 
+
         // Hashmap and Hash Tree --------------------
 
-//         Map<String,Integer> data = new HashMap<>();
-//         Map<String,Integer> data = new TreeMap<>();
+//        Map<String,Integer> data = new HashMap<>();
+//        Map<String,Integer> data = new TreeMap<>();
 //        data.put("wamir",4);
 //        data.put("zahid",3);
-//         data.put("riyaz",2);
+//        data.put("riyaz",2);
 //        data.put("aamir",1);
 //        data.forEach((key,value)->{
 //            System.out.println(key+" "+ value);
@@ -220,14 +221,14 @@ public class Programming {
 
         // find the missing number in the array--------------------------------------------
 
-//   int arr[] = new int[]{1,2,4,5};
-//   // n*n+1  find natural number
-//  int sum = (5*6)/2;
-//  int actualSum = 0;
-//  for(int i=0;i<arr.length;i++){
-//   actualSum = actualSum+ arr[i];
-//  }
-//  System.out.println((sum-actualSum));
+//        int[] arr = {1,2,3,4,5,6,8,9};
+//        int n = arr.length + 1;
+//        int sum = n * (n+1) / 2;
+//        int resultsum = 0;
+//        for(int num : arr){
+//            resultsum += num;
+//        }
+//        System.out.println(sum - resultsum);
 
 
         // remove the numbers in string ----------
@@ -281,6 +282,16 @@ public class Programming {
 //                System.out.print(" ");
 //            }
 //            for(int k=1;k<=2*i-1;k++){
+//                System.out.print("*");
+//            }
+//            System.out.println();
+//        }
+
+        // right angled Triangle
+
+//        int rows = 10;
+//        for(int i=1;i<rows;i++){
+//            for(int j=1;j<i;j++){
 //                System.out.print("*");
 //            }
 //            System.out.println();
