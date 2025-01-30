@@ -2,6 +2,7 @@ package org.example.code;
 import java.awt.image.AreaAveragingScaleFilter;
 import java.util.*;
 import java.util.Arrays;
+import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -23,4 +24,25 @@ public class CodeJava {
 //        Collections.reverse(ll);
 
     }
+
+
+//
+//    public static void main(String[] args) throws IllegalAccessException{
+//
+////        List<String> list = new ArrayList<>();
+//        CopyOnWriteArrayList<String> list = new CopyOnWriteArrayList<>();
+//        list.add("apple");
+//        list.add("banana");
+//        list.add("orange");
+//
+//        for(String s : list){
+////            System.out.println(s);
+//            if(s.equals("apple")){
+//                list.add("mobile");
+//                System.out.println("add mobile while reading");
+//            }
+//        }
+//        System.out.println(list);
+//
+//    }
 }

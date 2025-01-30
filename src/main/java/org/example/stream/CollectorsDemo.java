@@ -92,9 +92,11 @@ public class CollectorsDemo {
         System.out.println( maps.values().stream().reduce(Integer::sum));
         System.out.println(maps.values().stream().collect(Collectors.summarizingInt(x -> x)));
 
-        //Example 4:- Create a map from dtream elements
-        List<String> fruits = Arrays.asList("apple","banana","pear");
-        fruits.stream().collect(Collectors.toMap())
+        //Example 4:- Create a map from stream elements
+        List<String> fruits = Arrays.asList("apple", "banana", "pear");
+        Map<String, Integer> fruitMap = fruits.stream()
+                .collect(Collectors.toMap(fruit -> fruit, fruit -> fruit.length()));
+
 
 
     }

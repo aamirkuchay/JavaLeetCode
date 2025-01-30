@@ -1,17 +1,31 @@
 package org.example;
 
-import java.util.HashMap;
-import java.util.Map;
+
+import java.util.Arrays;
 
 public class Practise {
+    public static int binarySearch(int[] array, int target){
+        int left = 0;
+        int right = array.length - 1;
+        while (left <= right){
+            int middle = (left+right) / 2;
+            if(array[middle] == target){
+                return middle;
+            } else if (array[middle] < target) {
+                left = middle + 1;
+            } else if (array[middle] > target) {
+                right = middle - 1;
+            }
+        }
+        return -1;
+    }
+    public static void main(String[] args) {
 
-
-    public static void main(String[] args) throws IllegalAccessException{
-
-        StringBuilder sb = new StringBuilder("Hello");
-        sb.append(" World");
-        sb.append("tommorrow");
-        System.out.println(sb); // Hello World
+        int[] number = {2,4,57,89,906,5,4};
+        int tareget = 3;
+        int result = binarySearch(number,tareget);
+        System.out.println(result);
 
     }
 }
+
