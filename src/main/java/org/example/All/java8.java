@@ -66,42 +66,13 @@ public class java8 {
 
 
             //duplicate string find------------------------
+//        Set<String> single = new HashSet<>();
+//        List<String> str = Arrays.asList("apple","banana","apple","banana", "orange");
+//        List<String> list = str.stream().filter(s -> !single.add(s))
+//                .distinct().toList();
+//        System.out.println(list +"d");
+//        System.out.println(single);
 
-//            Scanner sc = new Scanner(System.in);
-//            System.out.println("Enter a string of comma-separated values:");
-//            String input = sc.nextLine();
-//            String[] strings = input.split(",");
-//
-//            Set<String> set = new HashSet<>();
-//            Set<String> duplicates = new HashSet<>();
-//
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            //            for (String s : strings) {
-//                if (!set.add(s)) {
-//                    duplicates.add(s);
-//                }
-//            }
-//
-//            if (!duplicates.isEmpty()) {
-//                System.out.println("Duplicates found: " + duplicates);
-//            } else {
-//                System.out.println("No duplicates found.");
-//            }
-
-
-            //  Write a program that can process two sequences of strings and return sorted sequences. ------
-            // public static void main(String[] args) {
-//        Scanner scanner = new Scanner(System.in);
-//        System.out.print("Enter the first sequence of strings separated by commas: ");
-//        String input1 = scanner.nextLine();
-//        String[] strings1 = input1.split(",");
-//        System.out.print("Enter the second sequence of strings separated by commas: ");
-//        String input2 = scanner.nextLine();
-//        String[] strings2 = input2.split(",");
-//        String[] allStrings = new String[strings1.length + strings2.length];
-//        System.arraycopy(strings1, 0, allStrings, 0, strings1.length);
-//        System.arraycopy(strings2, 0, allStrings, strings1.length, strings2.length);
-//        Arrays.sort(allStrings);
-//        System.out.println("The sorted sequence of strings is: " + Arrays.toString(allStrings));
 
 
             //  }
@@ -252,6 +223,18 @@ public class java8 {
 //        }
 //        Arrays.sort(nums);
 //        System.out.println(nums);
+
+
+
+
+
+//        List<Integer> list = Arrays.asList(3,2,2,45,89,99);
+//
+//        int min = list.stream().min(Integer::compareTo).get();
+//        int max = list.stream().max(Integer::compareTo).get();
+//        int second = list.stream().sorted(Comparator.reverseOrder()).skip(1).findFirst().get();
+//
+//        System.out.println(min + "  " +   max + "  " + second);
 
 
         }

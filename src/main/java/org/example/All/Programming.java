@@ -246,17 +246,6 @@ public class Programming {
         //multiply 2 nukbers using functional interface ---------------------
 
 
-//  fInterface total = (a,b) -> a*b;
-//  System.out.println(total.multiply(30,40));
-//
-//
-// }
-
-// @FunctionalInterface
-// public interface  fInterface{
-//  public  int multiply(int a, int b);
-
-// }
 
         ////swapping two values in java ----------------
 
