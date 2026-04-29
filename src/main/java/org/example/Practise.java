@@ -1,26 +1,33 @@
 package org.example;
 
 
-import com.sun.jdi.event.StepEvent;
-
 import java.util.*;
-import java.util.function.Function;
 import java.util.stream.Collectors;
 
 public class Practise {
-    public static void main(String[] args) {
-        int[] nums = {2,7,11,15};
-        int target = 17;
 
-        int[] result = twoSum(nums,target);
+    public static String reverse(String str){
+        String[] words = str.trim().split("\\s+");
+        StringBuilder reverse = new StringBuilder();
 
-
-        if (result.length == 2) {
-            System.out.println("Indices: " + result[0] + ", " + result[1]);
-            System.out.println("Numbers: " + nums[result[0]] + ", " + nums[result[1]]);
-        } else {
-            System.out.println("No two numbers add up to the target.");
+        for(int i = words.length -1 ; i>=0;i--){
+            reverse.append(words[i]);
+            if(i > 0){
+                reverse.append(" ");
+            }
         }
+        return reverse.toString();
+    }
+
+    public static void main(String[] args) {
+
+        String input = "I am Java";
+        String output = reverse(input);
+
+        System.out.println("Original: " + input);
+        System.out.println("Reversed: " + output);
+
+
+
     }
 }
-
