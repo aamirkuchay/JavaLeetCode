@@ -72,54 +72,6 @@ public class Programming {
 //         int count = (int) numbers.stream().filter(e -> e % 2 == 0).count();
 //        System.out.println(sum+"   "+count);
 
-
-
-//    EXAMPLE------------- pass by value in java ---------------------
-//static void m1(int i){
-//        i=i+ 10;
-//    }
-//
-//    public static void main(String[] args) {
-//        int i = 10;
-//        System.out.println(i);
-//        m1(i);
-//        System.out.println(i);
-//    }
-        // exception handle with throw ----------------------------
-
-//    public void divide(int a, int b) {
-//
-//        if(b == 0) {
-//            throw new ArithmeticException("Cannot divide by zero");
-//        }
-//        int result = a / b;
-//        System.out.println(result);
-//    }
-
-        //i have a third party api , i want to make an get call in springboot give me code --------------------
-//
-//    RestTemplate restTemplate = new RestTemplate();
-//
-//    String apiUrl = "https://api.example.com/data";
-//
-//    // Set any necessary headers or query parameters
-//    HttpHeaders headers = new HttpHeaders();
-//headers.set("Authorization", "Bearer abc123");
-//
-//    // Make the GET request and store the response in a String
-//    ResponseEntity<String> response = restTemplate.exchange(
-//            apiUrl,
-//            HttpMethod.GET,
-//            new HttpEntity<>(headers),
-//            String.class
-//    );
-//    String responseBody = response.getBody();
-//
-//// Do something with the response, such as parse it as JSON or display it to the user
-//System.out.println(responseBody);
-
-
-
         // public static void main(String[] args) {
         //------------------------- palendrome ------------------
 

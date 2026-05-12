@@ -5,6 +5,7 @@ import java.util.stream.Collectors;
 
 public class Recent {
 
+
 //    public static void main(String[] args) {
 
         //✅ find the duplicate elements using Hashmap=============
@@ -180,38 +181,38 @@ public class Recent {
 //    }
 
     //✅ Function to compress a string
-    public static String compress(String s) {
-        if (s == null || s.isEmpty()) return "";
-
-        StringBuilder result = new StringBuilder();
-        int count = 1;
-
-        for (int i = 1; i < s.length(); i++) {
-            if (s.charAt(i) == s.charAt(i - 1)) {
-                count++;
-            } else {
-                result.append(s.charAt(i - 1)).append(count);
-                count = 1; // reset count
-            }
-        }
-
-        // Append the last character and its count
-        result.append(s.charAt(s.length() - 1)).append(count);
-
-        return result.toString();
-    }
-
-    public static void main(String[] args) {
-        String input = "aaabbc";
-
-        System.out.println("Original: " + input);
-        System.out.println("Compressed (with 1s): " + compress(input));
-    }
+//    public static String compress(String s) {
+//        if (s == null || s.isEmpty()) return "";
+//
+//        StringBuilder result = new StringBuilder();
+//        int count = 1;
+//
+//        for (int i = 1; i < s.length(); i++) {
+//            if (s.charAt(i) == s.charAt(i - 1)) {
+//                count++;
+//            } else {
+//                result.append(s.charAt(i - 1)).append(count);
+//                count = 1; // reset count
+//            }
+//        }
+//
+//        // Append the last character and its count
+//        result.append(s.charAt(s.length() - 1)).append(count);
+//
+//        return result.toString();
+//    }
+//
+//    public static void main(String[] args) {
+//        String input = "aaabbc";
+//
+//        System.out.println("Original: " + input);
+//        System.out.println("Compressed (with 1s): " + compress(input));
+//    }
 
 
     //✅ make all 0 to the rightside --------------------------
-    List<Integer> number = List.of(1,0,-3,0,5,-2,0,8,0,-4);
-    List<Integer> result = number.stream().sorted(Comparator.comparingInt(n -> n ==0?1:0)).toList();
+//    List<Integer> number = List.of(1,0,-3,0,5,-2,0,8,0,-4);
+//    List<Integer> result = number.stream().sorted(Comparator.comparingInt(n -> n ==0?1:0)).toList();
 
 
 
