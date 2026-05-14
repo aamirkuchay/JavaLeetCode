@@ -5,30 +5,36 @@ import java.util.*;
 
 public class Practise {
 
+    public static int lengthOfLongestSubstring(String s) {
 
-    public static int[] twoSum(int[] nums, int target){
+        Map<Character, Integer> map = new HashMap<>();
 
-        Map<Integer,Integer> map = new HashMap<>();
+        int left = 0;
+        int max = 0;
 
-        for(int i=0;i<nums.length;i++){
-            int compliment = target - nums[i];
+        for (int right = 0; right < s.length(); right++) {
 
-            if(map.containsKey(compliment)){
-                return  new int[]{map.get(compliment),i};
+            char ch = s.charAt(right);
+
+            if (map.containsKey(ch)) {
+                left = Math.max(left, map.get(ch) + 1);
             }
-            map.put(nums[i],i);
+
+            map.put(ch, right);
+
+            max = Math.max(max, right - left + 1);
         }
-        return new int[]{};
+
+        return max;
     }
+
     public static void main(String[] args) {
 
-        int[] nums = {2, 7, 11, 15};
-        int target = 9;
+        String s = "abcabcbb";
 
-        int[] result = twoSum(nums,target);
-        System.out.println(Arrays.toString(result));
-
+        System.out.println(lengthOfLongestSubstring(s));
     }
+
 
 }
 

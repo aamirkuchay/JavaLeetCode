@@ -4,104 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1932b97-6037-40f5-a222-9a3ec0336a17" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FONGG/BestTimeToBuyAndSellStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FONGG/TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TestJava/Practise.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f1932b97-6037-40f5-a222-9a3ec0336a17" name="Changes" comment="cdcdsc">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FONGG/ContainsDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FONGG/ContainsNearbyDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FONGG/MaxSubArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/org/example/All/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/org/example/All/EmployeeData$EmployeeFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/org/example/All/EmployeeData$Lamda.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/org/example/All/EmployeeData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/org/example/All/Employees.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/org/example/All/Equals.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/org/example/All/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/org/example/All/Programming.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/org/example/All/Recent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/org/example/All/java8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/org/example/BinarySearchTree/BST$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/org/example/BinarySearchTree/BST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/org/example/PPPPPPP/Computer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/org/example/PPPPPPP/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/org/example/PPPPPPP/Desktop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/org/example/PPPPPPP/Developer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/org/example/PPPPPPP/Laptop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/org/example/Practise.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/org/example/algorithms/CombinationSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/org/example/algorithms/DFSSearchExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/org/example/algorithms/Graph.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/org/example/algorithms/LengthOfLongestSubstring.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/org/example/algorithms/TopKLargestElements.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/org/example/algorithms/topKFrequentElements.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/org/example/code/CodeJava.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/org/example/leetcode/arrays/CandyProblem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/org/example/leetcode/arrays/MajorityElements.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/org/example/leetcode/arrays/MaxSubarray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/org/example/leetcode/arrays/MergeLinklist$ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/org/example/leetcode/arrays/MergeLinklist.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/org/example/leetcode/arrays/ReverseLinklist.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/org/example/leetcode/arrays/RotrateArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/org/example/leetcode/arrays/SingleNumberSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/org/example/leetcode/arrays/SquaresOfSortedArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/org/example/linkedin/BuySellStock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/org/example/linkedin/TwoSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/org/example/stream/CollectorsDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/org/example/stream/IntermediateOps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/org/example/stream/LazyDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/org/example/stream/ParallelStream.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/org/example/stream/Stream$MobilePhone.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/org/example/stream/Stream.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/org/example/stream/StreamStart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/org/example/stream/TerminalOptions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/All/Programming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/All/Programming.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/All/Recent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/All/Recent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Practise.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/All/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/All/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/All/EmployeeData$EmployeeFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/All/EmployeeData$EmployeeFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/All/EmployeeData$Lamda.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/All/EmployeeData$Lamda.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/All/EmployeeData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/All/EmployeeData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/All/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/All/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/All/Programming.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/All/Programming.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/All/java8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/All/java8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/BinarySearchTree/BST$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/BinarySearchTree/BST$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/BinarySearchTree/BST.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/BinarySearchTree/BST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/PPPPPPP/Computer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/PPPPPPP/Computer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/PPPPPPP/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/PPPPPPP/Demo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/PPPPPPP/Desktop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/PPPPPPP/Desktop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/PPPPPPP/Developer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/PPPPPPP/Developer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/PPPPPPP/Laptop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/PPPPPPP/Laptop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Practise.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/algorithms/CombinationSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/algorithms/CombinationSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/algorithms/DFSSearchExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/algorithms/DFSSearchExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/algorithms/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/algorithms/Graph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/algorithms/LengthOfLongestSubstring.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/algorithms/LengthOfLongestSubstring.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/algorithms/TopKLargestElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/algorithms/TopKLargestElements.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/algorithms/topKFrequentElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/algorithms/topKFrequentElements.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/code/CodeJava.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/code/CodeJava.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/leetcode/arrays/CandyProblem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/leetcode/arrays/CandyProblem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/leetcode/arrays/MajorityElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/leetcode/arrays/MajorityElements.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/leetcode/arrays/MaxSubarray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/leetcode/arrays/MaxSubarray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/leetcode/arrays/RotrateArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/leetcode/arrays/RotrateArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/leetcode/arrays/SingleNumberSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/leetcode/arrays/SingleNumberSet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/leetcode/arrays/SquaresOfSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/leetcode/arrays/SquaresOfSortedArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/linkedin/BuySellStock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/linkedin/BuySellStock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/linkedin/TwoSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/linkedin/TwoSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/stream/CollectorsDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/stream/CollectorsDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/stream/IntermediateOps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/stream/IntermediateOps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/stream/LazyDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/stream/LazyDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/stream/ParallelStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/stream/ParallelStream.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/stream/Stream$MobilePhone.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/stream/Stream$MobilePhone.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/stream/Stream.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/stream/Stream.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/stream/StreamStart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/stream/StreamStart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/stream/TerminalOptions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/stream/TerminalOptions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/code/CodeJavaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/example/code/CodeJavaTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/junit/SimpleCalculatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/example/junit/SimpleCalculatorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TestJava/Practise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TestJava/Practise.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,6 +27,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;aamirkuchay&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/aamirkuchay/JavaLeetCode.git&quot;,
+    &quot;accountId&quot;: &quot;b27a5d25-c95c-4329-9e06-e5beafce6e34&quot;
+  }
+}</component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -130,12 +51,19 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="34mzVFiY0zWaJB6iu4WGgAy42Yu" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BestTimeToBuyAndSellStock.executor": "Run",
+    "Application.ContainsDuplicate.executor": "Run",
+    "Application.ContainsNearbyDuplicate.executor": "Run",
+    "Application.MaxSubArray.executor": "Run",
     "Application.MergeLinklist.executor": "Run",
     "Application.Practise.executor": "Run",
     "Application.Recent.executor": "Run",
@@ -165,6 +93,19 @@
   }
 }]]></component>
   <component name="RunManager">
+    <configuration name="BestTimeToBuyAndSellStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.FONGG.BestTimeToBuyAndSellStock" />
+      <module name="streamApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.FONGG.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MergeLinklist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.leetcode.arrays.MergeLinklist" />
       <module name="main" />
@@ -204,19 +145,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseLinklist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.leetcode.arrays.ReverseLinklist" />
-      <module name="main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.leetcode.arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="org.example.TestJava.Practise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.TestJava.Practise" />
       <extension name="coverage">
@@ -233,9 +161,9 @@
       <list>
         <item itemvalue="Application.org.example.TestJava.Practise" />
         <item itemvalue="Application.Practise" />
+        <item itemvalue="Application.BestTimeToBuyAndSellStock" />
         <item itemvalue="Application.Recent" />
         <item itemvalue="Application.MergeLinklist" />
-        <item itemvalue="Application.ReverseLinklist" />
       </list>
     </recent_temporary>
   </component>
@@ -249,6 +177,8 @@
       <workItem from="1777280493236" duration="50000" />
       <workItem from="1777435252167" duration="712000" />
       <workItem from="1778558914339" duration="13049000" />
+      <workItem from="1778578269659" duration="3575000" />
+      <workItem from="1778733433080" duration="8951000" />
     </task>
     <task id="LOCAL-00001" summary="xsdx">
       <option name="closed" value="true" />
@@ -258,14 +188,43 @@
       <option name="project" value="LOCAL" />
       <updated>1762334774437</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="dede">
+      <option name="closed" value="true" />
+      <created>1778578326236</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1778578326236</updated>
+    </task>
+    <task id="LOCAL-00003" summary="cdcdsc">
+      <option name="closed" value="true" />
+      <created>1778579958789</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1778579958789</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="xsdx" />
-    <option name="LAST_COMMIT_MESSAGE" value="xsdx" />
+    <MESSAGE value="dede" />
+    <MESSAGE value="cdcdsc" />
+    <option name="LAST_COMMIT_MESSAGE" value="cdcdsc" />
   </component>
 </project>
